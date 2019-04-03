@@ -1,0 +1,59 @@
+body {
+background-color: teal;
+font-family: "Times New Roman", Times, serif;
+
+}
+
+header {
+    margin-right: auto;
+    margin-left: auto;
+    background-color: purple;text-align: center;
+    text-decoration: bold;
+    color: white;
+}
+
+.crystal {
+    display: inline-block;
+    margin: auto;
+    height: 150px;
+}
+
+#Rules {
+    background: purple;
+    text-align: center;
+    color: black;
+    margin: 20px;
+    line-height: 4;
+    padding: 15; 
+}
+
+#g {
+    background: green;
+    width: 30%;
+    margin: 30px;
+    padding: 60px;
+    text-align: center;
+    height: 170px;
+}
+
+#p {
+    background: yellow;
+    width: 30%;
+    margin: 30px;
+    padding: 60px;
+    text-align: center;
+    height: 170px;
+}
+
+.winloss {
+    background-color: red;
+    width: 30%;
+    margin: 30px;
+    padding: 60px;
+    text-align: center;
+    height: 170px;
+}
+
+.scoreboard {
+    display: flex;
+}
